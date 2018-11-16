@@ -1,7 +1,7 @@
 {
-  "name": "autonumber-field",
-  "version": "1.0.0",
-  "description": "autonumber-field React component",
+  "name": "@cmds/autonumber-field",
+  "version": "0.1.0",
+  "description": "Used for displaying an unique incremented number for each record.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -11,6 +11,7 @@
     "umd"
   ],
   "scripts": {
+    "deploy": "cd demo/dist && surge --domain cmds-autonumber-field.surge.sh",
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
@@ -31,7 +32,7 @@
   "author": "",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "git@github.com:entercosmos/autonumber-field.git",
   "keywords": [
     "react-component"
   ]
