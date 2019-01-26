@@ -1,5 +1,7 @@
 # ![AutonumberField](https://user-images.githubusercontent.com/44801418/48110400-816d9800-e27e-11e8-8b93-25b6c57d8000.png) AutonumberField
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/entercosmos/autonumber-field.svg)](https://greenkeeper.io/)
+
 [![npm package][npm-badge]][npm]
 
 Used for displaying an unique incremented number for each record.
